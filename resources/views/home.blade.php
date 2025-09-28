@@ -1,4 +1,36 @@
 @include('common.header')
+<br>
+<br>
+<style>
+    .success{
+        color: green;
+        font-weight: bold;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+
+    .error{
+        color: red;
+        font-weight: bold;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+
+    .warning{
+        color: orange;
+        font-weight: bold;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+</style>
+<x-message-banner msg="User login successfully" class="success"/> <br> <br>
+
+<x-message-banner msg="User signup successfully" class="success"/> <br> <br>
+
+<x-message-banner msg="Invalid user credentials" class="error" /> <br> <br>
+
+<x-message-banner msg="Your account will be deleted in 3 days" class="warning"/> <br> <br>
+
 <div>
     <h1>User Homepage</h1>
     <p>

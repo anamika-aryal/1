@@ -1,3 +1,5 @@
+<br>
+<x-message-banner msg="user signup successfully"/>
 <div>
     <!-- We must ship. - Taylor Otwell -->
     @includeIf('common.header',['page'=>'About Page'])
@@ -7,3 +9,11 @@
     ?>
     <h1>This is view created from command line</h1>
 </div>
+<style>
+    .success{
+        color: green;
+        font-weight: bold;
+        background-color: lightgrey;
+        padding: 10px;
+    }
+</style>
