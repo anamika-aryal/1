@@ -10,12 +10,14 @@ class messageBanner extends Component
 {
     public $msg;
     public $class;
-    public function __construct($msg,$class)
+    /**
+     * Create a new component instance.
+     */
+    public function __construct($msg, $class)
     {
-        $this->msg = $msg;
-        $this->class = $class;
+        $this->msg=$msg;
+        $this->class=$class;
     }
-
     public function render(): View|Closure|string
     {
         return view('components.message-banner');

@@ -23,13 +23,9 @@
         padding: 10px;
     }
 </style>
-<x-message-banner msg="User login successfully" class="success"/> <br> <br>
-
-<x-message-banner msg="User signup successfully" class="success"/> <br> <br>
-
-<x-message-banner msg="Invalid user credentials" class="error" /> <br> <br>
-
-<x-message-banner msg="Your account will be deleted in 3 days" class="warning"/> <br> <br>
+<x-message-banner msg="user is successfully logged in." class="success" /> <br> <br>
+<x-message-banner msg="Invalid user credentials." class="error" /> <br> <br>
+<x-message-banner msg="Your password will expire in 3 days." class="warning" /> <br> <br>
 
 <div>
     <h1>User Homepage</h1>

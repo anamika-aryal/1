@@ -1,5 +1,5 @@
 <br>
-<x-message-banner msg="user signup successfully"/>
+<!-- <x-message-banner /> -->
 <div>
     <!-- We must ship. - Taylor Otwell -->
     @includeIf('common.header',['page'=>'About Page'])
